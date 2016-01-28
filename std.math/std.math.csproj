@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07E1F866-C28D-4635-A1C5-B29CD53A1422}</ProjectGuid>
+    <ProjectGuid>{90F9B3AD-D5A6-485D-901E-40366C8D88E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>std</RootNamespace>
-    <AssemblyName>std.robots</AssemblyName>
+    <RootNamespace>std.math</RootNamespace>
+    <AssemblyName>std.math</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,28 +30,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="robocode">
-      <HintPath>C:\Robocode\libs\robocode.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dog.cs" />
-    <Compile Include="Falcon.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Line.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\std.math\std.math.csproj">
-      <Project>{90f9b3ad-d5a6-485d-901e-40366c8d88e6}</Project>
-      <Name>std.math</Name>
-    </ProjectReference>
+    <Compile Include="Rect.cs" />
+    <Compile Include="Vertex.cs" />
+    <Compile Include="Vertexes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

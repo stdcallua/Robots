@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "robots", "robots.csproj", "{07E1F866-C28D-4635-A1C5-B29CD53A1422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "std.math", "..\std.math\std.math.csproj", "{90F9B3AD-D5A6-485D-901E-40366C8D88E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{07E1F866-C28D-4635-A1C5-B29CD53A1422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E1F866-C28D-4635-A1C5-B29CD53A1422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E1F866-C28D-4635-A1C5-B29CD53A1422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F9B3AD-D5A6-485D-901E-40366C8D88E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F9B3AD-D5A6-485D-901E-40366C8D88E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F9B3AD-D5A6-485D-901E-40366C8D88E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F9B3AD-D5A6-485D-901E-40366C8D88E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
